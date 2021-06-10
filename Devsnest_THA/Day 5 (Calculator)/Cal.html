@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculator</title>
     <script src="Cal.js"></script>
 </head>
 <body>
-    <div>
-        <input class="num1" type="number" name="firstnumber" >
-        <input class="num2" type="number" name="secondnumber" >
+    <div class="content">
+        <label for="">Enter first number</label><br>
+        <input class="num1" type="number"><br>
+        <label for="">Enter secound number</label><br>
+        <input class="num2" type="number">
+        <br>
         <button class="add">Add</button>
         <button class="sub">sub</button>
         <button class="multi">multiply</button>
         <button class="divide">divide</button>
+        <p id="result">Ans</p>
     </div>
-    <p id="result">Ans:</p>
 </body>
 </html>
