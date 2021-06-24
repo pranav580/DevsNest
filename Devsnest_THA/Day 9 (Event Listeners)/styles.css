@@ -3,10 +3,7 @@
     margin: 0pt;
     box-sizing: border-box;
 }
-h3{
-    width: 30%;
-    position:absolute;
-}
+
 
 body{
     width: 100vw;
@@ -19,9 +16,17 @@ body{
     height: 20vh;
     background-color: #dcd4e4;
 }
+.onetwo{
+    width: auto;
+    padding: 30px;
+}
+.one{
+    display: inline;
+    margin: 20px;
+}
 .two{
-    position: absolute;
-    left: 50%;
+    display: inline;
+    margin: 20px;
 }
 .container{
     display: flex;
