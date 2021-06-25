@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgba(137, 43, 226, 0.5);
+}
+nav{
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50% );
+    box-shadow: 6px 6px 16px chartreuse;
+}
+.grid-item{
+    background-color: blueviolet;
+    border: 2px solid chartreuse;
+}
+i{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 250%;
+    color: greenyellow;
+}
