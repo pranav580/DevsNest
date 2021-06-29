@@ -10,7 +10,7 @@ const questions = ["","Which famous con-artist's life is the film Catch Me If Yo
 const options = [[],
                 ["Frank Abagnale","Bernard Madoff","Charles Ponzi","Gregor MacGregor"],
                 [24,10,13,15],
-                [],
+                ["<img src='default(1).jpg'>","<img src='default(2).jpg'>","<img src='default.jpg'>","<img src='default.png'>"],
                 ["Airworthiness Check Certificate","Active Clearance Control","Approach Control Computer","Air Crew Council"]
                 ];
 const ans =[0,2,3,1];
