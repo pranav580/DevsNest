@@ -15,12 +15,9 @@ const options = [[],
                 ];
 const ans =[0,2,3,1];
 
-function correct(){
-   
-}
+
 
 const next = ()=> {
-    console.log(options.length);
     if(i==0){
         quiz[i].classList.replace('n','p');
         i=i+1;
@@ -31,7 +28,6 @@ const next = ()=> {
     op[1].innerHTML = options[i][1];
     op[2].innerHTML = options[i][2];
     op[3].innerHTML = options[i][3];
-    correct();
     console.log(i);
     i=i+1;
     if(i==5){
@@ -53,9 +49,41 @@ const prev = ()=> {
 
 document.querySelector('.next').addEventListener('click',function(){
     next();
+    for(let j=0;j<4;j++){
+        op[j].classList.remove('green');
+        op[j].classList.remove('red');
+        op[j].classList.add('op');
+        
+    }
     
 });
 
 document.querySelector('.prev').addEventListener('click',function(){
    prev();
 });
+
+for (let k = 0; k < 4; k++) {
+    op[k].addEventListener('click',function(){
+        for (let j = 1; j < questions.length; j++) {
+            if(center.innerHTML==questions[j]){
+                if(j==1 & k==0){
+                    console.log('good');
+                    op[0].classList.replace('op','green')
+                }else if(j==2 & k==2){
+                    console.log('good');
+                    op[2].classList.replace('op','green')
+                }else if(j==3 & k==3){
+                    console.log('good');
+                    op[3].classList.replace('op','green')
+                }else if(j==4 & k==1){
+                    console.log('good');
+                    op[1].classList.replace('op','green')
+                }else{
+                    op[k].classList.replace('op','red');
+                }
+            }
+        }
+            
+    }        
+    
+)};
