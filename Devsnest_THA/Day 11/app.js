@@ -10,7 +10,7 @@ const questions = ["","Which famous con-artist's life is the film Catch Me If Yo
 const options = [[],
                 ["Frank Abagnale","Bernard Madoff","Charles Ponzi","Gregor MacGregor"],
                 [24,10,13,15],
-                ["<img src='default(1).jpg'>","<img src='default(2).jpg'>","<img src='default.jpg'>","<img src='default.png'>"],
+                ["<img style='width:60px' src='images/default (1).jpg'>","<img style='width:60px' src='images/default (2).jpg'>","<img style='width:60px' src='images/default.jpg'>","<img style='width:60px' src='images/default.png'>"],
                 ["Airworthiness Check Certificate","Active Clearance Control","Approach Control Computer","Air Crew Council"]
                 ];
 const ans =[0,2,3,1];
@@ -67,16 +67,12 @@ for (let k = 0; k < 4; k++) {
         for (let j = 1; j < questions.length; j++) {
             if(center.innerHTML==questions[j]){
                 if(j==1 & k==0){
-                    console.log('good');
                     op[0].classList.replace('op','green')
                 }else if(j==2 & k==2){
-                    console.log('good');
                     op[2].classList.replace('op','green')
-                }else if(j==3 & k==3){
-                    console.log('good');
-                    op[3].classList.replace('op','green')
+                }else if(j==3 & k==2){
+                    op[2].classList.replace('op','green')
                 }else if(j==4 & k==1){
-                    console.log('good');
                     op[1].classList.replace('op','green')
                 }else{
                     op[k].classList.replace('op','red');
