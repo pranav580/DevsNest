@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #52006A;
+}
+nav{
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+
+}
+.container{
+    width: 30vw;
+    height: 80vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.top{
+    padding: 20px;
+    background: #CD113B;
+}
+.in{
+    padding: 13px 8px 2px 8px;
+    color: black;
+    background-color: #CD113B;
+    border: 0;
+    border-bottom: 3px solid #ffff;
+    background-color: #CD113B;
+    width: 60%;
+}
+.btn{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 5px;
+}
+.delete{
+    background-color: red;
+    color: #cbcbcb;
+    box-sizing: border-box;
+    padding: 6px;
+    border-radius: 3px;
+    
+}
+.delete:hover{
+    color: black;
+}
+.todos{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.list{
+    background-color: #FF7600;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
