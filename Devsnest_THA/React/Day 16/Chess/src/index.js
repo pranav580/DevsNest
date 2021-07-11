@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Board from "./board";
-import "./styles.css"
+import "./styles.css";
 
 const App=()=>{
     return(<div class="Container">
