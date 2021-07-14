@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const Btn = ()=>{
-    const [value,setValue]=useState(0)
+    const [number,setValue]=useState(0)
     return(
-        <button className="btn" onClick={()=>setValue(value+1)}>{value}</button>
+        <button className="btn" onClick={()=>setValue(number+1)}>{number}</button>
     )
 }
 
