@@ -25,9 +25,3 @@
     height: 416px;
     border: 20px solid black ;
 }
-.boxrow:nth-child(odd) .box:nth-child(even) {
-    background-color: black;
-}
-.boxrow:nth-child(even) .box:nth-child(odd) {
-    background-color: black;
-}
