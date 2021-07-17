@@ -1,0 +1,21 @@
+.Container{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+.cal{
+    display: inline-block;
+    width: 40vw;
+    height: 50vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: rgba(210, 105, 30, 0.233);
+    border-radius: 10px;
+}
+.card{
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
