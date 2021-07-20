@@ -1,18 +1,24 @@
 import React, { useState } from "react";
 
-const Track=({item , cal})=>{
+const Track=({item ,food , cal, index})=>{
     return(
-        <div>
+        <div className="Track">
             <h2>{item}</h2>
             <h6>You have consumed {cal} calories</h6>
-            <button>Delete</button>
-            <button>Edit</button>
+            <div className="btn btn-danger b" 
+                onClick={()=>{
+                    console.log("Delete =>", item);
+                    const newFoods = food.filter((el)=> el !== item);
+                    console.log(index);
+                }}
+            >Delete</div>
+            <div className="btn btn-primary b">Edit</div>
         </div>
     )
 }
 
 function Input(prpos){
-    const [cal,setCal] = useState();
+    const [cals,setCal] = useState([]);
     const [value,setValue] = useState();
     const [food,setState] = useState([]);
     return(
@@ -29,20 +35,20 @@ function Input(prpos){
                         setCal(e.target.value)
                     }
                 }
-                cal={cal}
+                cals={cals}
                 />
             <div><button className="btn btn-primary m-2" 
                 onClick={
                     ()=>{
                         setState([...food ,value])
-                        console.log(food);
                         setValue("");
                         setCal("");
+                        console.log(food);
                     }
                 }
                 >Add Item</button></div>
             {food.map((items,index)=>(
-                <Track key={index} item={items} cal={cal} />
+                <Track key={index} item={items} food={food} cal={cals} index={index}/>
             ))}
         </div>
     )

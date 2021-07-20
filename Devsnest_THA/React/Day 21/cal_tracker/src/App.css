@@ -1,4 +1,5 @@
 .App {
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -14,5 +15,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-
+.Track{
+  text-align: left;
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
+  left: 520px;
+  border: 1px  solid black;
+  border-width: thin;
+}
+.b{
+  margin: 5px;
+}
