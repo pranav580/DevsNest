@@ -1,4 +1,4 @@
-import Main from "./components/Card";
+import Main from "./components/Main";
 import Output from "./components/Output";
 import store from "./store";
 import { Provider } from "react-redux";

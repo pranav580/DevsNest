@@ -1,6 +1,6 @@
 
 import { useDispatch } from "react-redux";
-import { cardActionEmail,cardActionName } from "../redux/cardAction";
+import { cardActionEmail,cardActionName } from "../redux/Action";
 
 const Main=()=>{
     const dispatch = useDispatch();

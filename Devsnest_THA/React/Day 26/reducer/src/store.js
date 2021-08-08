@@ -1,4 +1,4 @@
-import CardReducer from "./redux/cardReducer";
+import CardReducer from "./redux/Reducer";
 import { createStore } from "redux";
 
 const store = createStore(CardReducer);
