@@ -17,16 +17,18 @@ function App() {
     setLocationData(data);
     }
 
+    onkeypress=(event)=> {
+      if (event === "enter") {
+        fetchData(locationName);
+      }
+    }
+  
+
   return (
     <div className="App">
       <div className="input">
-        <input type="text" placeholder="Enter Location"
-        onChange ={(e)=>{
-          setLocation(e.target.value);
-        }}></input>
-        <button onClick={()=>{
-          fetchData(locationName);
-        }}>Show</button>
+        <input className="" type="text" onChange ={(e)=>{setLocation(e.target.value);}}></input>
+        <button className="btn btn-primary" onClick={()=>{fetchData(locationName);}}>Show</button>
       </div>
       <div className="Details">
         {locationData? <Map locationData={locationData}/> : <Nothing/>}

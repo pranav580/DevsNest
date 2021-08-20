@@ -2,12 +2,14 @@
   text-align: center;
   margin-top: 20px;
 }
-.input{
-  z-index: 100;
-  pointer-events: none;
+
+input{
+  padding: 4px;
+  margin-right: 3px;
 }
 .card{
   width: max-content;
+  margin-top: 90px;
   padding: 30px;
   transition: 200ms;
   color: whitesmoke;
@@ -29,11 +31,12 @@
   width: 200px;
   display: flex;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .Top{
-  width: 280px;
+  width: 270px;
+  padding: 8px;
   border-radius: 10px 10px 0 0;
   color: whitesmoke;
   background: linear-gradient(145deg, #0ea3d1, #82cff3);

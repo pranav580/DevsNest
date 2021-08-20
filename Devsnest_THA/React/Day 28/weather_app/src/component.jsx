@@ -3,7 +3,7 @@ const Map=({locationData})=>{
 
     return(
         <div className="card">
-                <div><i class="fas fa-map-marker-alt"></i><b>{locationData.location.name}</b></div>
+                <div><i class="fas fa-map-marker-alt"></i><b> {locationData.location.name}</b></div>
                 <div><img src={locationData.current.condition.icon} alt="img" /></div>
                 <div>{locationData.current.temp_c} {<span>&deg;C</span>}  |  {locationData.current.temp_f} {<span>&deg;F</span>}</div>
                 <div>{locationData.current.condition.text}</div>
