@@ -41,8 +41,8 @@
   <li> Day 15 : Intro to React (Hello World) : <a href="">PAGE LINK</a></li>
   <li> Day 16 : <ul><li>Meme Card : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2016/meme_card/build/index.html">PAGE LINK</a></li>
   <li>Chess Board : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2016/Chess/build/index.html">PAGE LINK</a></li></ul></li>
-  <li> Day 17 : Food Calories Card (using props) : <a href="">PAGE LINK</a></li>
-  <li> Day 18 : Chess Board 2 ♟️ (using conditional props) : <a href="">PAGE LINK</a></li>
+  <li> Day 17 : Food Calories Card (using props) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2017/calorie/build/index.html">PAGE LINK</a></li>
+  <li> Day 18 : Chess Board 2 ♟️ (using conditional props) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2018/chessboard2/build/index.html">PAGE LINK</a></li>
   <li> Day 19 : Button Counter (useState) : <a href="">PAGE LINK</a></li>
   <li> Day 20 : Food Card App (delete function) : <a href="">PAGE LINK</a></li>
   <li> Day 21 : Food Card App (add + delete + edit function) : <a href="">PAGE LINK</a></li>
