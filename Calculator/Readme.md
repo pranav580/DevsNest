@@ -1,1 +1,1 @@
-Click To see Calculator -> https://pranav580.github.io/DevsNest/Calculator/Calculator.html 
+Click To see Calculator -> https://pranav580.github.io/DevsNest-Frontend/Calculator/Calculator.html 

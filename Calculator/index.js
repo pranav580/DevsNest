@@ -11,6 +11,7 @@ for (let i = 0; i < number; i++) {
            case 'C':
                 curr.innerHTML = "0";
                 str = " ";
+                document.querySelector('.result').innerHTML = "0";
                break;
             case '+/-':
                 
