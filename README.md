@@ -7,9 +7,9 @@
 ---
 
 <ul>
-<li>Day 1 & 2 : Applying HTML + CSS</li>
-<li>Day 3 : Resume : <a href="">PAGE LINK</a></li>
-<li>Day 4 : Clock using CSS Animation : <a href="">PAGE LINK</a></li>
+<li>Day 1 & 2 : Applying HTML + CSS : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/HTML%20+%20CSS/Day%201%20&%20Day%202/Day%201.html">PAGE LINK</a></li>
+<li>Day 3 : Resume : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/HTML%20+%20CSS/Day%203%20CSS%20(Resume)/Resume.html">PAGE LINK</a></li>
+<li>Day 4 : Clock using CSS Animation : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/HTML%20+%20CSS/Day%204%20(clock)/Clock.html">PAGE LINK</a></li>
 
 </ul>
 
@@ -43,10 +43,10 @@
   <li>Chess Board : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2016/Chess/build/index.html">PAGE LINK</a></li></ul></li>
   <li> Day 17 : Food Calories Card (using props) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2017/calorie/build/index.html">PAGE LINK</a></li>
   <li> Day 18 : Chess Board 2 ♟️ (using conditional props) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2018/chessboard2/build/index.html">PAGE LINK</a></li>
-  <li> Day 19 : Button Counter (useState) : <a href="">PAGE LINK</a></li>
-  <li> Day 20 : Food Card App (delete function) : <a href="">PAGE LINK</a></li>
-  <li> Day 21 : Food Card App (add + delete + edit function) : <a href="">PAGE LINK</a></li>
-  <li> Day 22 : Meme Generator App : <a href="">PAGE LINK</a></li>
+  <li> Day 19 : Button Counter (useState) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2019/buttons/build/index.html">PAGE LINK</a></li>
+  <li> Day 20 : Food Card App (delete function) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2020/calorie2/build/index.html">PAGE LINK</a></li>
+  <li> Day 21 : Food Card App (add + delete <!--+ edit function-->) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2021/cal_tracker/build/index.js">PAGE LINK</a></li>
+  <li> Day 22 : Meme Generator App : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2022/meme_app/build/index.html">PAGE LINK</a></li>
   <li> Day 23 : Study Custom Hooks and React Routing</li>
   <li>Day 24 : Profile Dashboard (States[Loading and Login] and React Router) : <a href="">PAGE LINK</a></li>
   <li>Day 25 : Bootstrap & Tailwind css 👋 </li>

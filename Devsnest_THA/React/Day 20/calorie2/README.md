@@ -1,0 +1,1 @@
+<li> Day 20 : Food Card App (delete function) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2020/calorie2/build/index.html">PAGE LINK</a></li>
