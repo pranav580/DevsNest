@@ -1,1 +1,1 @@
-<li> Day 21 : Food Card App (add + delete <!--+ edit function-->) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2021/cal_tracker/build/index.js">PAGE LINK</a></li>
+<li> Day 21 : Food Card App (add + delete <!--+ edit function-->) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2021/cal_tracker/build/index.html">PAGE LINK</a></li>
