@@ -45,7 +45,7 @@
   <li> Day 18 : Chess Board 2 ♟️ (using conditional props) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2018/chessboard2/build/index.html">PAGE LINK</a></li>
   <li> Day 19 : Button Counter (useState) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2019/buttons/build/index.html">PAGE LINK</a></li>
   <li> Day 20 : Food Card App (delete function) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2020/calorie2/build/index.html">PAGE LINK</a></li>
-  <li> Day 21 : Food Card App (add + delete <!--+ edit function-->) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2021/cal_tracker/build/index.js">PAGE LINK</a></li>
+  <li> Day 21 : Food Card App (add + delete <!--+ edit function-->) : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2021/cal_tracker/build/index.html">PAGE LINK</a></li>
   <li> Day 22 : Meme Generator App : <a href="https://pranav580.github.io/DevsNest-Frontend/Devsnest_THA/React/Day%2022/meme_app/build/index.html">PAGE LINK</a></li>
   <li> Day 23 : Study Custom Hooks and React Routing</li>
   <li>Day 24 : Profile Dashboard (States[Loading and Login] and React Router) : <a href="">PAGE LINK</a></li>
